@@ -6,7 +6,7 @@ jobs:
   some:
     runs-on: ubuntu-latest
     steps:
-      - uses: fudan-mse/latex-action@v0.0.1
+      - uses: xu-cheng/latex-action@v2
         with:
           # The root LaTeX file to be compiled
-          root_file: /main.tex
+          root_file: main.tex
