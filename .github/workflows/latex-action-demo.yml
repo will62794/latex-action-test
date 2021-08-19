@@ -2,7 +2,11 @@ name: LaTeX Action
   # You may pin to the exact commit or the version.
   # uses: fudan-mse/latex-action@eb2eb7ba472011213ac0a6286fd776494623362c
 on: [push]
-uses: fudan-mse/latex-action@v0.0.1
-with:
-  # The root LaTeX file to be compiled
-  root_file: main.tex
+jobs:
+  some:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: fudan-mse/latex-action@v0.0.1
+        with:
+          # The root LaTeX file to be compiled
+          root_file: main.tex
