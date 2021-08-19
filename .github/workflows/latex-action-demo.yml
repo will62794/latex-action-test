@@ -1,7 +1,7 @@
 name: LaTeX Action
 on: [push]
 jobs:
-  Compile LaTeX:
+  Compile-LaTeX:
     runs-on: ubuntu-latest
     steps:
       - uses: xu-cheng/latex-action@v2
