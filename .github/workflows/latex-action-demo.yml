@@ -8,3 +8,4 @@ jobs:
         with:
           # The root LaTeX file to be compiled
           root_file: main.tex
+          working_directory: .
